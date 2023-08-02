@@ -1,0 +1,72 @@
+.cart-item-list-container {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: scroll;
+}
+/*  */
+/* table */
+/*  */
+.cart-item-list-table {
+  border: none;
+  height: auto;
+  overflow: scroll;
+}
+
+.cart-item-list-table thead th {
+  color: #949494;
+  color: var(--color-black);
+
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing);
+}
+
+/* info */
+
+.cart-article-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-article td {
+  text-align: center;
+}
+
+/* image */
+
+.cart-article-img {
+  width: 80px;
+  height: 60px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* amount */
+
+.cart-article-amount {
+  padding-top: 2.5rem;
+  vertical-align: top;
+}
+
+.btn-article-amount {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: var(--p-font-size);
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  vertical-align: middle;
+  color: var(--color-grey);
+  cursor: pointer;
+}
+
+/* price */
+
+.cart-article-price {
+  color: var(--color-golden);
+  padding-top: 2.5rem;
+  vertical-align: top;
+}
